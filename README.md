@@ -31,7 +31,7 @@ I work on the architecture of **Yanımda**, Vodafone Türkiye's self-service And
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**Pull_Request_Analyzer**](https://github.com/ahmetoguzer/Pull_Request_Analyzer) | Web app that reviews GitHub / GitHub Enterprise PRs with Claude or DeepSeek and posts line-level review comments | React · TypeScript · Node |
+| **Pull_Request_Analyzer** *(private)* | Web app that reviews GitHub / GitHub Enterprise PRs with Claude or DeepSeek and posts line-level review comments | React · TypeScript · Node |
 | **Skills-Architecture** *(private)* | A portable collection of 31 Claude skills for native Android, iOS and KMP development: architecture decisions, templates, quality gates and a delivery pipeline | Claude Code · Markdown · Shell |
 | **MobiQA** *(private, in progress)* | Autonomous mobile QA: AI-driven exploratory testing plus accessibility checks and statistical performance-regression detection | Python · Kotlin · Firebase Test Lab · Perfetto |
 | **PR Memory Engine** *(design)* | Turns the *why* behind merged PRs into curated, human-approved project memory that lives in the repo | LLM agents · Git |
@@ -42,7 +42,7 @@ I work on the architecture of **Yanımda**, Vodafone Türkiye's self-service And
 - **Block Garden: Zen Puzzle** *(private)*: an 8×8 block puzzle game with a sticker-collection meta layer, built with Unity 6 under *Zen Leaf Games*. Uses Firebase Crashlytics, Remote Config, Cloud Save and IAP.
 - **My Hubs** *(private)*: a native macOS app (Swift + WKWebView, stdlib Python server) that starts, stops and tails logs for all my local dev projects from a single window.
 - **Local generative AI**: an on-device image generation setup with ComfyUI, FLUX.2 Klein and Ollama (Qwen) on Apple Silicon, for prompt engineering and photo-editing workflows.
-- [**ComposeCodeBase**](https://github.com/ahmetoguzer/ComposeCodeBase): a multi-module Jetpack Compose reference app with Gradle convention plugins.
+- **ComposeCodeBase** *(private)*: a multi-module Jetpack Compose reference app with Gradle convention plugins.
 
 ## 🛠️ Tech stack
 
