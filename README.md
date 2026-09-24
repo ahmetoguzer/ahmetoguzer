@@ -37,6 +37,14 @@ I work on the architecture of **Yanımda**, Vodafone Türkiye's self-service And
 | **PR Memory Engine** *(design)* | Turns the *why* behind merged PRs into curated, human-approved project memory that lives in the repo | LLM agents · Git |
 | **Code-health dashboard** *(private)* | Tracks code smells, modularization, Compose adoption and test coverage of an Android codebase over time | Flask · React · SonarQube |
 
+### 🧭 Skills delivery pipeline
+
+Every non-trivial change an AI agent makes runs the same gated route: clarify, route to the right skills, get the plan approved, build in phases, test, document, verify, then commit and open a PR. Hard gates stop the flow until they are met, and optional checks (UI tests, benchmarks, security) run only when the change calls for them.
+
+<p align="center">
+  <img src="assets/skills-delivery-pipeline.png" alt="Skills delivery pipeline: prompt, clarify, route, plan, phases, development, unit and UI tests, docs, verify, benchmark, security, commit, PR" width="100%"/>
+</p>
+
 ## 🧪 Side projects & local lab
 
 - **Block Garden: Zen Puzzle** *(private)*: an 8×8 block puzzle game with a sticker-collection meta layer, built with Unity 6 under *Zen Leaf Games*. Uses Firebase Crashlytics, Remote Config, Cloud Save and IAP.
